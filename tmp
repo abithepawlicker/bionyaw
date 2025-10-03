@@ -1,0 +1,8 @@
+        <div className='home-boxes-row'>
+            <div className='showcase-box-home'>
+
+            </div>
+            <div className='source-box-home'>
+
+            </div>
+        </div>

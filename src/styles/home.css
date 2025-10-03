@@ -1,0 +1,133 @@
+.home-class {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.home-box-banner {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+    justify-content: center;
+    border-radius: 8px 8px 0px 0px;
+    background-image: url(https://cdn.nyaw.org/nyaw/web/banner2.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home-box-banner img {
+    width: 30%;
+
+}
+.home-box-main {
+    background-color: var(--box);
+    width: 20%;
+    color: var(--font);
+    border-radius: 8px;
+}
+.home-boxes-row {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+.showcase-box-home {
+    background-color: var(--box);
+    width: 100%;
+    color: var(--font);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.source-box-home {
+    background-color: var(--box);
+    width: 100%;
+    color: var(--font);
+    box-sizing: border-box;
+}
+.box-title {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+.box-title span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+.home-box-title {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.home-box-title span {
+    font-size: 1.11rem;
+    font-weight: 500;
+}
+.box-content {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box-inside {
+    background-color: var(--box-inside);
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.main-homebox-description {
+    font-size: 0.9rem;
+}
+
+.home-box-main-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.home-box-main-buttons button {
+    outline: none;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 45%;
+}
+.join-btn {
+    background-color: var(--button-purple);
+    transition: 0.2s;
+}
+.signin-btn {
+    background-color: var(--button-normal);
+    color: var(--font);
+    border: 1px solid white;
+    transition: 0.2s;
+
+}
+.join-btn:hover {
+    background-color: var(--button-purple-hover);
+}
+.signin-btn:hover {
+    background-color: var(--button-normal-hover);
+}
+
+.home-box-title small a {
+    color: var(--link);
+}
