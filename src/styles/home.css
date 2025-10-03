@@ -4,8 +4,13 @@
     background-color: var(--background);
     display: flex;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
+}
+.box-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
     gap: 15px;
 }
 .home-box-banner {
@@ -26,6 +31,7 @@
 .home-box-main {
     background-color: var(--box);
     width: 20%;
+    height: fit-content;
     color: var(--font);
     border-radius: 8px;
 }
@@ -41,13 +47,14 @@
     width: 100%;
     color: var(--font);
     box-sizing: border-box;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .source-box-home {
     background-color: var(--box);
     width: 100%;
     color: var(--font);
     box-sizing: border-box;
+    border-radius: 8px;
 }
 .box-title {
     width: 100%;
@@ -105,19 +112,20 @@
     font-weight: 600;
     font-size: 0.8rem;
     outline: none;
-    border: none;
     cursor: pointer;
     box-sizing: border-box;
     width: 45%;
 }
 .join-btn {
-    background-color: var(--button-purple);
+    border: none;
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, #cba6f7 0%, rgb(255, 195, 160) 100%);
     transition: 0.2s;
 }
 .signin-btn {
     background-color: var(--button-normal);
     color: var(--font);
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.075);
     transition: 0.2s;
 
 }
@@ -130,4 +138,49 @@
 
 .home-box-title small a {
     color: var(--link);
+}
+.queres {
+    display: flex;
+    flex-direction: row;
+}
+.queres span {
+    display: flex;
+    flex-direction: row;
+}
+.queres a {
+    margin-left: 5px;
+    color: var(--link);
+    text-decoration: none;
+}
+.about-project-content {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.link-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+}
+.version-value {
+    margin-left: 5px;
+    color: var(--link);
+}
+
+.feature {
+    font-weight: 500;
+    color: var(--link);
+    font-size: 1rem;
+}
+.feature-desc {
+    font-size: 0.9rem;
+}
+.feature-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }

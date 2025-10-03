@@ -3,12 +3,13 @@
   --box-inside: #11111b;
   --box: #171724;
   --font: #c3cbe8;
+  --font-clear: #c3cbe8b7;
   --button-purple: #cba6f7;
   --button-purple-hover: #d9bdfc;
   --button-normal: #13131b98;
   --button-normal-hover: #13131b73;
   --button-warning: #2d2231;
-  --link: dfaeff;
+  --link: rgb(232, 197, 255)
 }
 
 * {
