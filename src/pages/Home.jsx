@@ -1,9 +1,18 @@
+import { useNavigate } from "react-router-dom";
 import { Icon } from '@iconify/react';
 import { Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import '../styles/home.css';
 
 function App() {
+  const navigate = useNavigate();
+  const handleSignin = () => {
+    navigate("/login");
+  };
+  const handleSignup = () => {
+    navigate("/register");
+  };
+
   return (
     <div className='home-class'>
         <div className='box-list'>
@@ -20,8 +29,8 @@ function App() {
                         <span className='main-homebox-description'>NyawBio is your essential platform for a customizable bio-page. Unify your digital identity with links, music, and a unique design :3</span>
                     </div>
                     <div className='home-box-main-buttons'>
-                        <button className='join-btn'>Join NyawBio</button>
-                        <button className='signin-btn'>Sign in</button>
+                        <button onClick={handleSignup} className='join-btn'>Join NyawBio</button>
+                        <button onClick={handleSignin} className='signin-btn'>Sign in</button>
                     </div>
                 </div>
             </div>
